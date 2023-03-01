@@ -170,7 +170,7 @@ func NewIMMNotificationClient(callback IMMNotificationClientCallback) *IMMNotifi
 
 	mmnc := &IMMNotificationClient{}
 
-	mmnc.vTable = vTable
+	mmnc.VTable = vTable
 	mmnc.callback = callback
 
 	return mmnc
