@@ -13,7 +13,7 @@ type IMMNotificationClientCallback struct {
 }
 
 type IMMNotificationClient struct {
-	vTable   *IMMNotificationClientVtbl
+	VTable   *IMMNotificationClientVtbl
 	refCount int
 	callback IMMNotificationClientCallback
 }
