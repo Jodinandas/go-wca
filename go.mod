@@ -1,4 +1,4 @@
-module github.com/DarkMetalMouse/go-wca
+module github.com/Jodinandas/go-wca
 
 go 1.13
 
